@@ -10,9 +10,16 @@ header {
   padding: 1rem;
 }
 
-nav a:hover {
+nav a:link,
+nav a:visited {
   color: white;
-  text-decoration: underline;
+  text-decoraton: none;
+}
+
+nav a:hover
+nav a:active {
+  color: #dddddd;
+  text-decoration: none;
 }
 
 main {
