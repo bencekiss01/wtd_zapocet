@@ -61,7 +61,43 @@ if(form) {
   });
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  const tablebody = document.getElementById("data-table-body");
 
+  if (tablebody) {
+    fetch("data.json")
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      data.bikes.forEach(function(bike) {
+        const row = document.createElement("tr");
+
+        const brandCell = document.createElement("td");
+        brandCell.textContent = bike.brand;
+
+        const modelCell = document.createElement("td");
+        modelCell.textContent = bike.model;
+
+        const typeCell = document.createElement("td");
+        typeCell.textContent = bike.type;
+
+        const priceCell = document.createElement("td");
+        priceCell.textContent = bike.price;
+
+        row.appendChild(brandCell);
+        row.appendChild(modelCell);
+        row.appendChild(typeCell);
+        row.appendChild(priceCell);
+
+        tableBody.appendChild(row)
+      });
+    })
+    .catch(function(error) {
+      console.log("Chyba pri načítaní JSON:", error);
+    });
+  }
+});
 
 
 
