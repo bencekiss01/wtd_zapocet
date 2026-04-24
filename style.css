@@ -13,10 +13,10 @@ header {
 nav a:link,
 nav a:visited {
   color: white;
-  text-decoraton: none;
+  text-decoration: none;
 }
 
-nav a:hover
+nav a:hover,
 nav a:active {
   color: #dddddd;
   text-decoration: none;
