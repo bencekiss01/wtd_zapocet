@@ -95,6 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .catch(function(error) {
       console.log("Chyba pri načítaní JSON:", error);
+      alert("JSON sa nenačítal");
     });
   }
 });
