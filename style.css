@@ -29,3 +29,8 @@ h1, h2 {
   margin-top: 5px;
 }
 
+#result {
+  color: green;
+  font-weight: bold;
+  margin-top. 10px;
+}
