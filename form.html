@@ -23,7 +23,7 @@
 
     <form id="registration-form" novalidate>
       <div>
-        <label for="name">Name:</label><br>
+        <label for="name">Meno:</label><br>
         <input type="text" id="name" required>
         <span class="error-message" id="error-name"></span>
       </div>
@@ -35,20 +35,20 @@
       </div>
       
       <div>
-        <label for="age">Age:</label><br>
+        <label for="age">Vek:</label><br>
         <input type="number" id="age" min="0" max="120" required>
         <span class="error-message" id="error-age"></span>
       </div>
 
       <div>
-        <p>Gender:</p> 
+        <p>Pohlavie:</p> 
         <label><input type="radio" name="gender" value="male" required>Male</label>
         <label><input type="radio" name="gender" value="female" required>Female</label>
          <span class="error-message" id="error-gender"></span>
       </div>
 
       <div>
-        <label for="message">Message:</label> <br>
+        <label for="message">Správa:</label> <br>
         <textarea id="message" rows="4" required></textarea>
         <span class="error-message" id="error-message"></span>
       </div>
@@ -56,12 +56,12 @@
       <div>
         <label>
           <input type="checkbox" id="terms" name="terms" required>
-          I agree with the terms.
+          Súhlasím s podmienkami.
         </label>
         <span class="error-message" id="error-terms"></span>
       </div>
       
-      <button type="submit">Submit</button>
+      <button type="submit">Poslať</button>
     </form>
 
     <p id="result"></p>
