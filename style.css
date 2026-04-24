@@ -30,7 +30,8 @@ h1, h2 {
 }
 
 #result {
-  color: green;
+  color: #00aa00;
   font-weight: bold;
+  font-size: 24px;
   margin-top: 10px;
 }
