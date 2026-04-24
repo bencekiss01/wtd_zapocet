@@ -6,14 +6,14 @@ images.forEach(function(image) {
   });
 });
 
-const form = document.getElementById("registration-form";
+const form = document.getElementById("registration-form");
 
 if(form) {
   form.addEventListener("submit", function(event) {
     event.preventDefault();
 
     document.getElementById("error-name").textContent = "";
-    document.getElementById("error-mail").textContent = "";
+    document.getElementById("error-email").textContent = "";
     document.getElementById("error-age").textContent = "";
     document.getElementById("error-gender").textContent = "";
     document.getElementById("error-message").textContent = "";
@@ -25,9 +25,9 @@ if(form) {
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const age = document.getElementById("age").value.trim();
-    const gender = document.getElementById('input[name="gender"]:checked');
+    const gender = document.querySelector('input[name="gender"]:checked');
     const message = document.getElementById("message").value.trim();
-    const terms = document.getElementById("terms").value.trim();
+    const terms = document.getElementById("terms").checked.trim();
 
     if(name === "") {
       document.getElementById("error-name").textContent = "Meno je povinné!";
