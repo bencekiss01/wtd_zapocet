@@ -1,22 +1,28 @@
 {
   "bikes," [
     {
-      "značka": "Trek",
+      "brand": "Trek",
       "model": "Domane AL 2",
-      "typ": "Cestná",
-      "cena": 1200
+      "type": "Cestná",
+      "price": 1200
     },
-     {
-      "značka": "",
-      "model": "Domane AL 2",
-      "typ": "Cestná",
-      "cena": 1200
+    {
+      "brand": "Specialized",
+      "model": "Rockhopper",
+      "type": "Horský",
+      "price": 900
     },
-     {
-      "značka": "Trek",
-      "model": "Domane AL 2",
-      "typ": "Cestná",
-      "cena": 1200
+    {
+      "brand": "Giant",
+      "model": "Defy Advanced",
+      "type": "Endurance",
+      "price": 2300
+    },
+    {
+      "brand": "Canyon",
+      "model": "Grizl 6",
+      "type": "Gravel",
+      "price": 1500
     },
   ]
 }
