@@ -1,0 +1,22 @@
+{
+  "bikes," [
+    {
+      "značka": "Trek",
+      "model": "Domane AL 2",
+      "typ": "Cestná",
+      "cena": 1200
+    },
+     {
+      "značka": "",
+      "model": "Domane AL 2",
+      "typ": "Cestná",
+      "cena": 1200
+    },
+     {
+      "značka": "Trek",
+      "model": "Domane AL 2",
+      "typ": "Cestná",
+      "cena": 1200
+    },
+  ]
+}
