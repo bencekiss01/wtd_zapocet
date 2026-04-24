@@ -62,9 +62,9 @@ if(form) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const tablebody = document.getElementById("data-table-body");
+  const tableBody = document.getElementById("data-table-body");
 
-  if (tablebody) {
+  if (tableBody) {
     fetch("data.json")
     .then(function(response) {
       return response.json();
