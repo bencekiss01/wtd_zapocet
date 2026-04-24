@@ -27,7 +27,7 @@ if(form) {
     const age = document.getElementById("age").value.trim();
     const gender = document.querySelector('input[name="gender"]:checked');
     const message = document.getElementById("message").value.trim();
-    const terms = document.getElementById("terms").checked();
+    const terms = document.getElementById("terms").checked;
 
     if(name === "") {
       document.getElementById("error-name").textContent = "Meno je povinné!";
